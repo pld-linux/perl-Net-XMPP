@@ -24,15 +24,20 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::XMPP is a convenient tool to use for any perl script that would
+Net::XMPP is a convenient tool to use for any Perl script that would
 like to utilize the XMPP Instant Messaging protocol. While not a
 client in and of itself, it provides all of the necessary back-end
 functions to make a CGI client or command-line perl client feasible
 and easy to use. Net::XMPP is a wrapper around the rest of the
 official Net::XMPP::xxxxxx packages.
 
-#%%description -l pl
-# TODO
+%description -l pl
+Net::XMPP to wygodne narzêdzie do u¿ywania w dowolnym skrypcie
+perlowym maj±cym u¿ywaæ protoko³u XMPP Instant Messaging. O ile
+biblioteka ta nie jest klientem samym w sobie, dostarcza wszystkich
+funkcji backendu potrzebnych do zrobienia klienta CGI lub dzia³aj±cego
+z linii poleceñ. Net::XMPP to wrapper dla reszty oficjalnych pakietów
+Net::XMPP::xxxxxx.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
