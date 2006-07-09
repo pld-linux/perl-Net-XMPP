@@ -9,7 +9,7 @@ Summary:	Net::XMPP - XMPP Perl library
 Summary(pl):	Net::XMPP - biblioteka Perla XMPP
 Name:		perl-Net-XMPP
 Version:	1.0
-Release:	1
+Release:	1.1
 # and somewhere mentioned as "perl itself"
 License:	LGPL
 Group:		Development/Languages/Perl
@@ -41,6 +41,10 @@ Net::XMPP::xxxxxx.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+# avoid online tests
+mv t/2_client_jabberd1.4.t t/2_client_jabberd1.4.t_
+mv t/3_client_jabberd2.t t/3_client_jabberd2.t_
+
 
 %build
 %{__perl} Makefile.PL \
