@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	XMPP
 Summary:	Net::XMPP - XMPP Perl library
-Summary(pl):	Net::XMPP - biblioteka Perla XMPP
+Summary(pl.UTF-8):   Net::XMPP - biblioteka Perla XMPP
 Name:		perl-Net-XMPP
 Version:	1.0
 Release:	1.1
@@ -31,12 +31,12 @@ functions to make a CGI client or command-line perl client feasible
 and easy to use. Net::XMPP is a wrapper around the rest of the
 official Net::XMPP::xxxxxx packages.
 
-%description -l pl
-Net::XMPP to wygodne narzêdzie do u¿ywania w dowolnym skrypcie
-perlowym maj±cym u¿ywaæ protoko³u XMPP Instant Messaging. O ile
+%description -l pl.UTF-8
+Net::XMPP to wygodne narzÄ™dzie do uÅ¼ywania w dowolnym skrypcie
+perlowym majÄ…cym uÅ¼ywaÄ‡ protokoÅ‚u XMPP Instant Messaging. O ile
 biblioteka ta nie jest klientem samym w sobie, dostarcza wszystkich
-funkcji backendu potrzebnych do zrobienia klienta CGI lub dzia³aj±cego
-z linii poleceñ. Net::XMPP to wrapper dla reszty oficjalnych pakietów
+funkcji backendu potrzebnych do zrobienia klienta CGI lub dziaÅ‚ajÄ…cego
+z linii poleceÅ„. Net::XMPP to wrapper dla reszty oficjalnych pakietÃ³w
 Net::XMPP::xxxxxx.
 
 %prep
