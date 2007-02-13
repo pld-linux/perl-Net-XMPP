@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	XMPP
 Summary:	Net::XMPP - XMPP Perl library
-Summary(pl.UTF-8):   Net::XMPP - biblioteka Perla XMPP
+Summary(pl.UTF-8):	Net::XMPP - biblioteka Perla XMPP
 Name:		perl-Net-XMPP
 Version:	1.0
 Release:	1.1
