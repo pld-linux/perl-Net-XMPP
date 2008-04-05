@@ -13,8 +13,9 @@ Release:	1
 # and somewhere mentioned as "perl itself"
 License:	LGPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	67cf40d3bbbe6740c21c856c79692fde
+URL:		http://search.cpan.org/dist/Net-XMPP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -44,7 +45,6 @@ Net::XMPP::xxxxxx.
 # avoid online tests
 mv t/2_client_jabberd1.4.t t/2_client_jabberd1.4.t_
 mv t/3_client_jabberd2.t t/3_client_jabberd2.t_
-
 
 %build
 %{__perl} Makefile.PL \
