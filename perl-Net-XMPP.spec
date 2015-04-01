@@ -8,18 +8,20 @@
 Summary:	Net::XMPP - XMPP Perl library
 Summary(pl.UTF-8):	Net::XMPP - biblioteka Perla XMPP
 Name:		perl-Net-XMPP
-Version:	1.02
+Version:	1.05
 Release:	1
 # and somewhere mentioned as "perl itself"
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	67cf40d3bbbe6740c21c856c79692fde
+# Source0-md5:	6fdfeecde1b7eea1a24413e6557a97e2
 URL:		http://search.cpan.org/dist/Net-XMPP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-LWP-Online
 BuildRequires:	perl-XML-Stream >= 1.22
+BuildRequires:	perl-YAML-Tiny
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
