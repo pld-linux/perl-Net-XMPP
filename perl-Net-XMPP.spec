@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test", tests require network connectivity
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	XMPP
 Summary:	Net::XMPP - XMPP Perl library
