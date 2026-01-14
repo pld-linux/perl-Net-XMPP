@@ -8,7 +8,7 @@ Summary:	Net::XMPP - XMPP Perl library
 Summary(pl.UTF-8):	Net::XMPP - biblioteka Perla XMPP
 Name:		perl-Net-XMPP
 Version:	1.05
-Release:	1
+Release:	2
 # and somewhere mentioned as "perl itself"
 License:	LGPL
 Group:		Development/Languages/Perl
